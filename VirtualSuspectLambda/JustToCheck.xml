@@ -1,0 +1,563 @@
+﻿<story>
+  <properties>
+    <name>Joanna Brando</name>
+  </properties>
+  <!--Times-->
+  <entity>
+    <id>1</id>
+    <!--Living together-->
+    <type>TimeSpan</type>
+    <begin>03/06/1978T00:00:00</begin>
+    <end>03/06/1978T10:00:00</end>
+  </entity>
+  <entity>
+    <id>2</id>
+    <!--Going out with Chris-->
+    <type>TimeSpan</type>
+    <begin>03/06/1978T10:00:00</begin>
+    <end>03/06/1978T10:30:00</end>
+  </entity>
+  <entity>
+    <id>3</id>
+    <type>TimeSpan</type>
+    <!--sleeps with Chris-->
+    <begin>03/06/1978T10:30:00</begin>
+    <end>03/06/1978T10:40:00</end>
+  </entity>
+  <entity>
+    <id>4</id>
+    <type>TimeSpan</type>
+    <!--Going home from Chris flat-->
+    <begin>03/06/1978T10:40:00</begin>
+    <end>03/06/1978T12:00:00</end>
+  </entity>
+  <entity>
+    <id>5</id>
+    <type>TimeSpan</type>
+    <!--Doctors appointment-->
+    <begin>03/06/1978T12:00:00</begin>
+    <end>03/06/1978T13:00:00</end>
+  </entity>
+  <entity>
+    <id>6</id>
+    <type>TimeSpan</type>
+    <!--Cutting Sarahs breaks-->
+    <begin>03/06/1978T13:00:00</begin>
+    <end>03/06/1978T19:00:00</end>
+  </entity>
+  <entity>
+    <id>7</id>
+    <type>TimeSpan</type>
+    <!--Sarah and Alex marriage-->
+    <begin>03/06/1978T19:00:00</begin>
+    <end>04/06/1978T07:30:00</end>
+  </entity>
+  <entity>
+    <id>8</id>
+    <type>TimeSpan</type>
+    <!--Sarahs death-->
+    <begin>04/06/1978T07:30:00</begin>
+    <end>04/06/1978T16:00:00</end>
+  </entity>
+  <entity>
+    <id>9</id>
+    <type>TimeInstant</type>
+    <!--Alex Dies-->
+    <value>04/06/1978T16:00:00</value>
+  </entity>
+  <entity>
+    <id>10</id>
+    <type>TimeSpan</type>
+    <!--Joanna marries Alex-->
+    <begin>04/06/1978T16:00:00</begin>
+    <end>04/06/1978T16:20:00</end>
+  </entity>
+  <entity>
+    <id>11</id>
+    <type>TimeSpan</type>
+    <!--Joanna is poisoned-->
+    <begin>04/06/1978T16:20:00</begin>
+    <end>04/06/1978T16:30:00</end>
+  </entity>
+  <entity>
+    <id>12</id>
+    <type>TimeSpan</type>
+    <begin>04/06/1978T16:30:00</begin>
+    <end>04/06/1978T17:00:00</end>
+  </entity>
+  <entity>
+    <id>13</id>
+    <type>TimeSpan</type>
+    <begin>04/06/1978T17:00:00</begin>
+    <end>04/06/1978T23:00:00</end>
+  </entity>
+  <entity>
+    <id>14</id>
+    <type>TimeSpan</type>
+    <begin>04/06/1978T23:00:00</begin>
+    <end>05/06/1978T04:00:00</end>
+  </entity>
+  <entity>
+    <id>15</id>
+    <type>TimeSpan</type>
+    <begin>05/06/1978T04:00:00</begin>
+    <end>05/06/1978T04:30:00</end>
+  </entity>
+  <entity>
+    <id>16</id>
+    <type>TimeSpan</type>
+    <!--Fake time to cover for the crime-->
+    <begin>04/06/1978T23:00:00</begin>
+    <end>05/06/1978T07:00:00</end>
+  </entity>
+  <entity>
+    <id>17</id>
+    <type>TimeSpan</type>
+    <begin>05/06/1978T04:30:00</begin>
+    <end>05/06/1978T07:00:00</end>
+  </entity>
+  <entity>
+    <id>18</id>
+    <type>TimeSpan</type>
+    <begin>05/06/1978T07:00:00</begin>
+    <end>05/06/1978T20:00:00</end>
+  </entity>
+  <entity>
+    <id>19</id>
+    <type>TimeSpan</type>
+    <begin>05/06/1978T20:00:00</begin>
+    <end>05/06/1978T20:30:00</end>
+  </entity>
+  <entity>
+    <id>20</id>
+    <type>TimeSpan</type>
+    <begin>05/06/1978T20:30:00</begin>
+    <end>05/06/1978T21:00:00</end>
+  </entity>
+  <entity>
+    <id>21</id>
+    <type>TimeSpan</type>
+    <begin>05/06/1978T21:00:00</begin>
+    <end>05/06/1978T21:30:00</end>
+  </entity>
+  <entity>
+    <id>22</id>
+    <type>TimeSpan</type>
+    <begin>05/06/1978T21:30:00</begin>
+    <end>06/06/1978T06:00:00</end>
+  </entity>
+  <entity>
+    <id>23</id>
+    <type>TimeSpan</type>
+    <begin>06/06/1978T06:00:00</begin>
+    <end>06/06/1978T06:15:00</end>
+  </entity>
+  <entity>
+    <id>24</id>
+    <type>TimeSpan</type>
+    <begin>06/06/1978T06:15:00</begin>
+    <end>06/06/1978T07:30:00</end>
+  </entity>
+  <entity>
+    <id>25</id>
+    <type>TimeSpan</type>
+    <begin>06/06/1978T07:30:00</begin>
+    <end>06/06/1978T11:30:00</end>
+  </entity>
+  <entity>
+    <id>26</id>
+    <type>TimeSpan</type>
+    <begin>06/06/1978T11:30:00</begin>
+    <end>06/06/1978T12:30:00</end>
+  </entity>
+  <entity>
+    <id>27</id>
+    <type>TimeSpan</type>
+    <begin>06/06/1978T12:30:00</begin>
+    <end>06/06/1978T12:45:00</end>
+  </entity>
+  <entity>
+    <id>28</id>
+    <type>TimeSpan</type>
+    <begin>06/06/1978T12:45:00</begin>
+    <end>06/06/1978T14:00:00</end>
+  </entity>
+  <entity>
+    <id>29</id>
+    <type>TimeSpan</type>
+    <begin>06/06/1978T14:00:00</begin>
+    <end>06/06/1978T18:15:00</end>
+  </entity>
+  <entity>
+    <id>30</id>
+    <type>TimeSpan</type>
+    <begin>06/06/1978T18:15:00</begin>
+    <end>06/06/1978T23:59:59</end>
+  </entity>
+
+  <entity>
+    <id>31</id>
+    <type>TimeSpan</type>
+    <!--Fake time to cover for conversation-->
+    <begin>05/06/1978T20:00:00</begin>
+    <end>05/06/1978T21:00:00</end>
+  </entity>
+
+  <entity>
+    <id>32</id>
+    <type>TimeSpan</type>
+    <!--Real Time used for fake event and real event-->
+    <!--Fake and Real Marriage-->
+    <begin>13/11/1977T10:30:00</begin>
+    <end>13/11/1977T11:00:00</end>
+  </entity>
+
+
+  <!--Subjects, understand this better-->
+  <entity>
+    <id>33</id>
+    <type>Person</type>
+    <value>Joanna Brando</value>
+    <speech>me</speech>
+    <association relation="Details">
+      <speech>I am Joanna Brando</speech>
+    </association>
+    <association relation="Residence">
+      <speech>I live in Alex's Manor, I used to live there with Sarah and Alex. I guess now it's Joanna's Manor</speech>
+    </association>
+  </entity>
+
+
+
+  <!--Agents-->
+
+  <entity>
+    <id>34</id>
+    <type>Person</type>
+    <value>Sarah Weisz</value>
+    <speech>Sarah Weisz</speech>
+    <association relation="Details">
+      <speech>She was my best friend</speech>
+    </association>
+    <association relation="Relationship">
+      <speech>She was my best friend</speech>
+    </association>
+    <association relation="Residence">
+      <speech>She lived with me and Alex in Alex's Manor</speech>
+    </association>
+  </entity>
+
+  <entity>
+    <id>35</id>
+    <type>Person</type>
+    <value>Christian Speedwagon</value>
+    <speech>Christian Speedwagon</speech>
+    <association relation="Details">
+      <speech>He is my best friend</speech>
+    </association>
+    <association relation="Relationship">
+      <speech>He is a good friend of mine and Sarah's, even his vices won't make me give up on him</speech>
+    </association>
+    <association relation="Residence">
+      <speech>He lives in a small house in the city</speech>
+    </association>
+  </entity>
+
+  <entity>
+    <id>36</id>
+    <type>Person</type>
+    <value>Alex Larsson</value>
+    <speech>Alex Larsson</speech>
+    <!--<association relation="Relationship">
+      <speech>He was my husband, why did he have to die for such a stupid war</speech>
+    </association>-->
+    <association relation="Details">
+      <speech>He is my deceased husband</speech>
+    </association>
+    <association relation="Relationship">
+      <speech>My husband, I'm glad I can say it at last</speech>
+    </association>
+    <association relation="Residence">
+      <speech>He lived with me and Sarah in Alex's Manor</speech>
+    </association>
+  </entity>
+
+
+  <!--Locations-->
+
+  <entity>
+    <id>37</id>
+    <type>City</type>
+    <value>Nomansland</value>
+    <!--also a Theme-->
+    <speech>Nomansland</speech>
+    <!--in-->
+  </entity>
+  <entity>
+    <id>38</id>
+    <type>House</type>
+    <value>Alex's Manor</value>
+    <speech>Alex's house</speech>
+    <association relation="Details">
+      <speech>It's Alex's house, it's where I live</speech>
+    </association>
+    <!--at city-->
+    <association relation="Parent">
+      <entity id="37"/>
+    </association>
+  </entity>
+  <entity>
+    <id>39</id>
+    <type>Discotheque</type>
+    <value>End House's Envy</value>
+    <speech>The town's famous disco</speech>
+    <!--at city-->
+    <association relation="Parent">
+      <entity id="37"/>
+    </association>
+  </entity>
+  <entity>
+    <id>40</id>
+    <type>Hospital</type>
+    <value>Nomansland's Hospital</value>
+    <speech>Nomansland Main Hospital</speech>
+    <!--at city-->
+    <association relation="Parent">
+      <entity id="37"/>
+    </association>
+  </entity>
+  <entity>
+    <id>41</id>
+    <type>Police Station</type>
+    <value>Nomansland's Police Station</value>
+    <speech>The town's police station</speech>
+    <association relation="Details">
+      <speech>It's where we are right now</speech>
+    </association>
+    <!--at city-->
+    <association relation="Parent">
+      <entity id="37"/>
+    </association>
+  </entity>
+  <entity>
+    <id>42</id>
+    <type>Coffee Shop</type>
+    <value>Nomansland's Coffee Shop</value>
+    <speech>The town's coffee shop</speech>
+    <association relation="Details">
+      <speech>I went there with Christian</speech>
+    </association>
+    <!--at city-->
+    <association relation="Parent">
+      <entity id="37"/>
+    </association>
+  </entity>
+  <entity>
+    <id>43</id>
+    <type>House</type>
+    <value>Christian's Flat</value>
+    <speech>Christian's Flat</speech>
+    <association relation="Details">
+      <speech>Where Christian lives alone</speech>
+    </association>
+    <!--at city-->
+    <association relation="Parent">
+      <entity id="37"/>
+    </association>
+  </entity>
+  <entity>
+    <id>44</id>
+    <type>Country</type>
+    <value>Ireland</value>
+    <speech>Ireland</speech>
+    <association relation="Details">
+      <speech>The country of Ireland</speech>
+    </association>
+  </entity>
+
+  <!--Themes-->
+
+  <entity>
+    <id>45</id>
+    <type>Marriage</type>
+    <value>Marriage</value>
+    <speech>the marriage</speech>
+  </entity>
+  <entity>
+    <id>46</id>
+    <type>Appointment</type>
+    <value>Doctor's Appointment</value>
+    <speech>My doctor's appointment</speech>
+  </entity>
+  <entity>
+    <id>47</id>
+    <type>Conversation</type>
+    <value>Christian's Conversation</value>
+    <speech>A conversation with Christian about going to the disco</speech>
+  </entity>
+  <entity>
+    <id>48</id>
+    <type>Make out</type>
+    <value>Joanna sleeps with Christian</value>
+    <speech>Sleeping with Christian</speech>
+  </entity>
+  <entity>
+    <id>49</id>
+    <type>Topic</type>
+    <value>Going to End House's Envy</value>
+    <speech>Going out to the End House's Envy</speech>
+  </entity>
+  <entity>
+    <id>50</id>
+    <type>Blackmail</type>
+    <value>Christian's Blackmail</value>
+    <speech>Blackmailing Christian</speech>
+  </entity>
+  <entity>
+    <id>51</id>
+    <type>Death</type>
+    <value>Sarah's Death</value>
+    <speech>Sarah's Death</speech>
+  </entity>
+  <entity>
+    <id>52</id>
+    <type>Death</type>
+    <value>Alex's Death</value>
+    <speech>Alex's Death</speech>
+  </entity>
+  <entity>
+    <id>53</id>
+    <type>Moving</type>
+    <value>Started living in Alex's Manor</value>
+    <speech>Moving to Alex's Manor to live with Alex and Sarah</speech>
+  </entity>
+  <entity>
+    <id>54</id>
+    <type>Affair</type>
+    <value>Affair with Chris</value>
+    <speech>Affair with Chris</speech>
+  </entity>
+  <entity>
+    <id>55</id>
+    <type>Murder</type>
+    <value>Murder Sarah</value>
+    <speech>Murder Sarah</speech>
+  </entity>
+  <entity>
+    <id>56</id>
+    <type>Murder</type>
+    <value>Someone is trying to kill Joanna</value>
+    <speech>Someone is trying to kill Me</speech>
+  </entity>
+
+
+  <!--Reasons-->
+  <entity>
+    <id>57</id>
+    <type>Motive</type>
+    <value>Get Alex's Money</value>
+    <speech>Receive Alex's Money</speech>
+  </entity>
+
+  <entity>
+    <id>58</id>
+    <type>Motive</type>
+    <value>Talk about going out that day</value>
+    <speech>talk about going to the End House's Envy</speech>
+  </entity>
+
+  <entity>
+    <id>59</id>
+    <type>Motive</type>
+    <value>Discover if pregnant</value>
+    <speech>Discover if pregnant of Christian's baby</speech>
+  </entity>
+
+  <entity>
+    <id>60</id>
+    <type>Motive</type>
+    <value>Blackmail Christian</value>
+    <speech>Blackmail Christian to not tell anyone</speech>
+  </entity>
+
+  <entity>
+    <id>61</id>
+    <type>Motive</type>
+    <value>Party with Christian</value>
+    <speech>Party with Christian in the town's Disco</speech>
+  </entity>
+
+  <entity>
+    <id>62</id>
+    <type>Motive</type>
+    <value>Go home from Christian's flat</value>
+    <speech>Go home from Christian's flat</speech>
+  </entity>
+
+  <entity>
+    <id>63</id>
+    <type>Motive</type>
+    <value>Go to Flat</value>
+    <speech>Go to Christian's flat to sleep with him</speech>
+  </entity>
+
+  <entity>
+    <id>64</id>
+    <type>Motive</type>
+    <value>Marry</value>
+    <speech>Marry Alex</speech>
+  </entity>
+
+  <entity>
+    <id>65</id>
+    <type>Motive</type>
+    <value>Moving</value>
+    <speech>Me and Sarah needed a place to live</speech>
+  </entity>
+
+  <entity>
+    <id>66</id>
+    <type>Motive</type>
+    <value>Sleep with Chris</value>
+    <speech>Sleep with Chris</speech>
+  </entity>
+
+  <entity>
+    <id>67</id>
+    <type>Motive</type>
+    <value>Kill Sarah</value>
+    <speech>Kill Sarah</speech>
+  </entity>
+
+  <entity>
+    <id>68</id>
+    <type>Motive</type>
+    <value>Killed in Action</value>
+    <speech>Died whilst fighting the war</speech>
+  </entity>
+
+  <entity>
+    <id>69</id>
+    <type>Motive</type>
+    <value>Poisoned</value>
+    <speech>Someone poisoned me</speech>
+  </entity>
+
+  <entity>
+    <id>70</id>
+    <type>Motive</type>
+    <value>Died in an Accident</value>
+    <speech>She died in an accident</speech>
+  </entity>
+
+
+  <!--Manners-->
+
+  <entity>
+    <id>71</id>
+    <type>Taxi</type>
+    <value>Taxi</value>
+    <speech>a taxi</speech>
+  </entity>
+
+</story>
